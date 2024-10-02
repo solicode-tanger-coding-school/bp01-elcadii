@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.article1{
+background-image: url("img/img1.jfif");
+background-position: center;
+background-size: cover;
+height: 100vh;
+color: aliceblue;
+position: relative;
+}
+.titel{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+.titel h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: rgb(245, 4, 4);
+}
+.titel  p {
+    border: solid 1.5px white;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    justify-items: center;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+.go img {
+    align-items: center;
+    width: 8%;
+    margin-left: 45%;
+    margin-top: 8%;
+}
+.morocco{
+    margin: -20;
+background-image: url("img/marrakesh.jpg");
+background-position: center;
+background-size: cover;
+height: 100vh;
+color: aliceblue;
+position: relative;
+}
+.usa{
+    background-image: url("img/usa.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: aliceblue;
+    position: relative;
+    }
+.sweden{
+    background-image: url("img/sweden.jpg");
+     background-position: center;
+    background-size: cover;
+    height: 100vh;
+     color: aliceblue;
+     position: relative;
+}
+.spain{
+    background-image: url("img/spain.jpg");
+     background-position: center;
+    background-size: cover;
+    height: 100vh;
+     color: aliceblue;
+     position: relative;
+}
+
+.Titel h1{
+    margin: 0px;
+    text-align: center;
+    color: rgba(159, 0, 0, 0.929);
+    font-size: 55px;
+    padding-top: 40px;
+}
+.paragraph{
+    margin-top: 10%;
+    width: 40%;
+    text-align:left;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.likes{
+    margin-left: 20%;
+    display: flex;
+}
+.likes button{
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 10%;
+}
+.likes button :active{
+    background-color: rgba(238, 83, 83, 0.772);
+}
+.list{
+    display: flex;
+    position: absolute;
+    top: 24%;
+    left: 80%;
+}
+.list ul h2{
+    color: rgb(207, 16, 16);
+}
+.list ul li{
+    font-size: 20px;
+    line-height: 25px;
+
+}
+
