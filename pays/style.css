@@ -20,8 +20,10 @@ position: relative;
 .titel h1 {
     font-size: 30px;
     text-transform: capitalize;
-    color: rgb(245, 4, 4);
+    color: rgb(255, 0, 0);
 }
+
+
 .titel  p {
     border: solid 1.5px white;
     border-radius: 20px;
@@ -74,13 +76,16 @@ position: relative;
      position: relative;
 }
 
-.Titel h1{
+.Titel h1 {
     margin: 0px;
     text-align: center;
     color: rgba(159, 0, 0, 0.929);
     font-size: 55px;
-    padding-top: 40px;
+    padding-top: 40px;   
 }
+
+
+
 .paragraph{
     margin-top: 10%;
     width: 40%;
@@ -93,14 +98,30 @@ position: relative;
     display: flex;
 }
 .likes button{
-    padding: 10px;
+    padding: 5px;
     border-radius: 20px;
+    border: 2px solid red;
     margin-right: 20px;
-    width: 10%;
+    width: 10%; 
+    background-color: rgb(223, 32, 48);
+}    
+/* .comnter{
+    display: flex;
+    margin-left: 28%;
 }
-.likes button :active{
-    background-color: rgba(238, 83, 83, 0.772);
+.comnter textarea {
+    margin-right: 50px;
+    padding: 6px;
+    border-radius: 20px;
+    text-align: center;
+    height: 90%;
+
 }
+.comnter input{
+    padding: 10px;
+    border-radius: 20px; */
+
+
 .list{
     display: flex;
     position: absolute;
